@@ -3,44 +3,30 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-     <!-- attaching stylesheet file  -->
-<link rel="stylesheet" href="/style.css">
-  <link rel="icon" herf="./images/icon.png">
-    <meta name="discription" content="A dog has sharp teeth so that it can eat flesh very easily, it has four legs, two ears, two eyes, a tail, a mouth, and a nose.">
-    <title>Amol patil Frontend 1 AccioJob 8 January 2023</title>
+
+        <!--external css file-->
+        <link rel="stlesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900& family=poppins:wght@400;700&display=swap" rel="stylesheet">
+        <title>amol frontend-1 contest task 1</title>
     </head>
-    <body>
-        <div style="border:1px rgb(250, 250, 255) block; padding: 20px 25px;">
-        <h1><u>The Beagle Blog</u></h1>
-        <p>The <i><b>beagle</b></i> is a breed of small scent hound, similar in appearance to the much larger foxhound. The <b>beagle</b> was developed primarily for hunting hare, known as beagling. Possessing a great sense of smell and superior tracking instincts, the <b>beagle</b> is the primary breed used as a detection dog for prohibited agricultural imports and foodstuffs in quarantine around the world</p>
-       <a href="https://en.wikipedia.org/wiki/Beagle" target="blank" style="color:blue">Read more</a>
-    </div>
-        <div>
-            <h1><u>Images</u></h1>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Southern_Hound.jpg" alt="The Beagle Dog" width="450px">
-            <br>
-            <a href="https://www.google.com/search?q=beagle&rlz=1C5CHFA_enUS944US945&sxsrf=ALiCzsYi_xLzuX5-mgRt-U2UMiiEwhaCTA:1672839794160&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiat8ntha78AhVnDbcAHX7UCYYQ_AUoAXoECAEQAw&biw=1629&bih=894&dpr=2.2" target="blank" style="color: blue">More images</a>
-        </div>
-        <div>
-            <h1><u>Trivia</u></h1>
-            <ol>
-                <li>
-                    Height - 13–16 in (33–41 cm)
-                    </li>
-                <li>
-                    Weight - Dogs 22–25 lb (10.0–11.3 kg)
-                </li>
-                <li>
-                    Life span - 12–15 years
-                </li>
-                <li>
-                    Coat - Short haired, hard coat of medium length
-                </li>
-                <li>
-                    Colour -Tricolor or white in combination with black & tan/brown or brown/tan
-                 </li>
-            </ol>
-        </div>
+      <body>
+       <div class="main-container">
+        <div class="top">
+            <h1>Gallery</h1>
+       </div> 
+       <div class="bottom">
+        <div class="item 1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX3XYSeH42PV8Xu2BgucAqUuAXPCvd_brM07nQRmc-&s" alt= " "></div>
+        <div class="item 2"><img src="https://wallpaperaccess.com/full/2940856.jpg" alt=" "></div>
+        <div class="item 3"><img src="https://i.pinimg.com/736x/bb/10/00/bb100064b6fb409dddef7b5ffd7ffecd.jpg" alt=" "></div>
+        <div class="item 4"><img src="https://images.unsplash.com/photo-1632133465018-a66d7cb26af7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2hpdmFqaSUyMG1haGFyYWp8ZW58MHx8MHx8&w=1000&q=80" alt=" "></div>
+        <div class="item 5"><img src="https://wallpaperaccess.com/full/2940856.jpg" alt=" "></div>
+        <div class="item 6"><img src="https://i0.wp.com/www.hindisahyog.in/wp-content/uploads/2022/02/Maratha-Shivaji-Maharaj-Photos-in-HD.jpg?resize=600%2C414&ssl=1" alt=" "></div>
+        <div class="item 7"><img src="data:image/jpeg;base64,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" alt=" ">
+            <h3>Read More...</h3>
+       </div>
+       </div>
+       </div>
     </body>
 </html>
