@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstap to design the ui</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body >
+    <div class="container-fluid">
+        <!-- Navbar from -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand d-lg-none" href="#">CompanyName</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page " href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page " href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-- carousel section -->
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://mechstuff.com/wp-content/uploads/2018/02/image001.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption ">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.shutterstock.com/shutterstock/photos/1335833930/display_1500/stock-photo-at-the-factory-female-mechanical-engineer-designs-d-engine-on-her-personal-computer-in-the-1335833930.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0lHCULcA3i5V-l2HAe1QbdqtfqZssv3-5Z6J6isU9pYfRtXE6IgnvkIa1HfHKhh-zJ-s&usqp=CAU" class="d-block w-100" alt="...">
+                  <div class="carousel-caption ">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- cards start from -->
+          <div class="container-fluid mt-4 ">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="card-header">
+                        Card Header
+                      </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQus6KuumzeY3X1pPAjsVOYh2aASAY-zdzCA-YFD8FveaeO_f6WiVgfEMxw_8_Ixmq0uqI&usqp=CAU" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card Title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Sub Title</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">1st list item</li>
+                        <li class="list-group-item">2st list item</li>
+                      </ul>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                    <div class="card-footer">
+                        Card footer
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="card-header">
+                        Card Header
+                      </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJRQpW8-r3e1nNyvitr4F_rtwcxHqFRx77Krxn3qJFImvlViNk3fzjEbUuTBbVEzvaZ_k&usqp=CAU" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Sub Title</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content..</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">1st list item</li>
+                        <li class="list-group-item">2st list item</li>
+                      </ul>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                    <div class="card-footer">
+                        Card footer
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="card-header">
+                        Card Header
+                      </div>
+                    <img src="data:image/jpeg;base64,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" class="card-img-top rounded-0" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Sub Title</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">1st list item</li>
+                        <li class="list-group-item">2st list item</li>
+                      </ul>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                    <div class="card-footer">
+                        Card footer
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- accordion  start  -->
+          <div class="accordion container-fluid mt-4" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- form body -->
+        <div class="container-fluid my-5">
+            <form >
+              <fieldset >
+                <legend>Bootstrap Form</legend>
+              <div class="row">
+                <div class="mb-3 col-md-6" >
+                   <input type="text"  class="form-control" placeholder="First Name">
+                </div>
+                <div class="mb-3 col-md-6">
+                  <input type="text"  class="form-control" placeholder="Last  Name">
+                </div>
+               <div class="mb-3">
+                <input type="email"  class="form-control" placeholder="Email">
+              </div>
+              <div class="mb-3">
+                  <input type="password"  class="form-control" placeholder="Password">
+              </div>
+              <div class="mb-3">
+                  <input type="password"  class="form-control" placeholder="Confirm Password">
+              </div>
+              </div>
+                <button type="submit" class="btn btn-primary">Submit Form</button>
+              </fieldset>
+            </form>
+          </div>
+      </div>
+      <table class="table container-fluid mt-4">
+        <thead>
+          <tr>
+            <th scope="col"><input type="checkbox" name="" id=""></th>
+            <th scope="col">Title</th>
+            <th scope="col"width="400px">Title</th>
+            <th scope="col"width="400px">Title</th>
+            <th scope="col"width="400px">Title</th>
+            <th scope="col">Title</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="" id=""></td>
+            <td>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grip-vertical" viewBox="0 0 16 16">
+                    <path d="M7 2a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-3 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td >
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Publish</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Edit</a> 
+                <a href="#" style="margin-right: 7px; text-decoration: none;">Delete</a>
+            </td>
+ </tr>
+ </tbody>
+      </table>
